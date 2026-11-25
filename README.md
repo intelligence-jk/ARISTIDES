@@ -6,7 +6,7 @@ Check a marking scheme you wrote for your own question, then total a student's a
 A home-made marking scheme often has quiet errors: the steps add to 6 but the question says 5, an accuracy mark that does not depend on any method mark, a step that needs a step written later. Those errors turn into unfair marking. This tool reads a small JSON scheme, lists every inconsistency, and then totals the marks a student earned, refusing to count an accuracy mark whose method mark was not earned (unless you marked it follow-through). It contains no exam-board scheme or question text: you write the scheme for your own questions. Pure Python 3.10+, standard library only, exact `Fraction` arithmetic.
 
 ## Example
-`examples/q1.json` is a scheme for "Solve 3x + 2 = 20 and then find 2x + 1" (five marks: M, A, B, then M and A on follow-through).
+`examples/q1.json` is a scheme for "Solve 3x + 2 = 20 and then find 2x + 1" (five marks: M, A, B, then M and A on follow-through). This is an invented example, written for this repository; it is not from any exam board.
 ```bash
 python -m markscheme check examples/q1.json
 python -m markscheme score examples/q1.json s1 s3 s4 s5

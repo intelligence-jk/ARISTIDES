@@ -1,0 +1,10 @@
+[project]
+name = "marking-scheme-checker"
+version = "0.1.0"
+description = "Check a marking scheme you wrote for internal consistency, and total a student's awarded marks against it"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

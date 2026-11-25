@@ -1,0 +1,9 @@
+{"question": "Solve 3x + 2 = 20 and then find 2x + 1",
+ "total": 5,
+ "steps": [
+  {"id": "s1", "type": "M", "marks": 1, "needs": [], "note": "subtract 2 from both sides"},
+  {"id": "s2", "type": "A", "marks": 1, "needs": ["s1"], "note": "x = 6"},
+  {"id": "s3", "type": "B", "marks": 1, "needs": [], "note": "writes the expression 2x + 1"},
+  {"id": "s4", "type": "M", "marks": 1, "needs": ["s2"], "ft": true, "note": "substitutes x"},
+  {"id": "s5", "type": "A", "marks": 1, "needs": ["s4"], "ft": true, "note": "13"}
+ ]}

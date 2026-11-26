@@ -1,4 +1,4 @@
-# AEGIS: Answer Evaluation against Grading Instructions and Schemes
+# ARISTIDES: named after Aristides the Just of Athens: marks given fairly
 
 Formerly `marking-scheme-checker`.
 

@@ -1,4 +1,6 @@
-# marking-scheme-checker
+# AEGIS: Answer Evaluation against Grading Instructions and Schemes
+
+Formerly `marking-scheme-checker`.
 
 Check a marking scheme you wrote for your own question, then total a student's awarded marks against it with the dependency rules applied.
 
